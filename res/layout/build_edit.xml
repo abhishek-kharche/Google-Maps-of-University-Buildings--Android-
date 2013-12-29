@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="1dp"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="20dp"
+	        android:text="@string/code" />
+
+	    <EditText
+	        android:id="@+id/code"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_marginBottom="10dp"
+	        android:layout_marginLeft="100dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_marginTop="1dp"
+	        android:layout_weight="2"
+	        android:hint="Enter Building Code.." />
+
+	</LinearLayout>
+		
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="1dp"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="1dp"
+		    android:text="@string/title" />
+
+		<EditText android:id="@+id/title" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+	   		android:layout_marginLeft="100dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="1dp"
+			android:hint="Enter Building Name.." 
+			android:layout_weight="1"/>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+		
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="1dp"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="1dp" 
+			android:text="@string/coord1" />
+		
+		<EditText android:id="@+id/coord1" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+	    	android:layout_marginLeft="100dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="1dp"
+			android:hint="Enter Latitude Info.." 
+			android:layout_weight="1"/>
+		</LinearLayout>
+	
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" >
+		
+		<TextView android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="1dp"
+	    	android:layout_marginLeft="10dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="1dp"
+		    android:text="@string/coord2" />
+
+		<EditText android:id="@+id/coord2" 
+		  android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+	    	android:layout_marginLeft="100dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="1dp"
+			android:hint="Enter Longitude Info.." 
+			android:layout_weight="1"/>
+	</LinearLayout>
+		
+		<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+		
+		<Button android:id="@+id/confirm" 
+	  		android:text="@string/confirm"
+	  		android:layout_marginBottom="1dp"
+	    	android:layout_marginLeft="200dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="20dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		
+		<Button android:id="@+id/directions" 
+	  		android:text="Get Directions"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_marginBottom="1dp"
+	    	android:layout_marginLeft="150dp"
+	    	android:layout_marginRight="1dp"
+	    	android:layout_marginTop="20dp"/>
+		
+		</LinearLayout>
+
+</LinearLayout>

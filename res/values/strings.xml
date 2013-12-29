@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UD Buildings</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_notes">No data yet</string>
+    <string name="menu_insert">Add Building</string>
+    <string name="menu_delete">Delete Building</string>
+    <string name="code">Building Code</string>
+    <string name="title">Building Name</string>
+    <string name="search">Search Building</string>
+    <string name="coord1">Latitude</string>
+    <string name="coord2">Longitude</string>
+    <string name="confirm">Confirm</string>
+    <string name="directions">Directions</string>
+    <string name="edit_build">Edit Building data</string>
+    <string name="search_hint">Search..</string>
+    <string name="map">Map</string>
+    <string name="url_string">http://events.udel.edu/calendar.xml?event_types[]=8128</string>
+    <string name="request">Request Data</string>
+	<string name="default_url">Default URL</string>
+	<string name="EventInfo">Event Info</string>
+	<string name="search_edit">Search/Edit</string>
+	<string name="listview1">ListView</string>
+</resources>
